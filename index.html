@@ -45,11 +45,11 @@
       function drawVisualization() {
         data = google.visualization.arrayToDataTable( ma );
         var options = {
-          title : '貿易額推移', 
+          title : 'コロナ', 
             // 出典 http://www.mlit.go.jp/hakusyo/mlit/h27/hakusho/h28/html/n1114000.html
             titleTextStyle : { color: '#333', fontSize: 20 },
-          vAxis: {title: '金額 [兆円]'},
-          hAxis: {title: ma[0][0] },
+          vAxis: {title: '公表日'},
+          hAxis: {title: 患者_年代},
           seriesType: 'bars',            // 全体は棒グラフ(default='line')
             legendTextStyle : { color: '#333', fontSize: 12 },
             isStacked: true              // 積み上げ棒グラフ
