@@ -9,7 +9,7 @@
     var ma = new Array();  var data = new Array(); var res = new Array();
     // 1) ファイル(fname)を読み込む
     function getValue(){     // onload 時実行
-      var fname = 'data/boueki.csv';  // 利用ファイル名を指定  --------------------
+      var fname = 'https://www.city.yokohama.lg.jp/city-info/koho-kocho/koho/topics/corona-data.files/141003_yokohama_covid19_patients.csv';  // 利用ファイル名を指定  --------------------
       // データ出典 http://www.mlit.go.jp/hakusyo/mlit/h27/hakusho/h28/html/n1114000.html
       // 2) 該当 csvファイルから chartデータに変換 getCsv( fname ) ----------------
       ma = getCsv( fname ); //  → function: getCsv( fname )
